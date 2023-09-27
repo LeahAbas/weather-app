@@ -10,15 +10,15 @@ const router = createRouter({
       name: 'home',
       component: Home,
       meta: {
-        title: 'Weather App'
+        title: 'Weather-App'
       }
     },
     {
-      path: '/weather-report',
+      path: '/report/:lat/:lon',
       name: 'report',
       component: WeatherReport,
       meta: {
-        title: 'Weather Report'
+        title: 'Weather-Report'
       }
     },
   ]
